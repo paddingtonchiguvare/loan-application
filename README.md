@@ -34,4 +34,15 @@ The model predicts a high performance than the actual performance. Some of the c
 
 Random forest perormed slightly better than decision trees as expected. The precision, recall and f1 score were slightly higher.
 
+# How to run code.
+
+All the required python packages are in requirements.txt.
+
+Install the python packages using 
+
+```
+pip install -r requirements.txt
+
+```
+
 
