@@ -27,12 +27,17 @@ Different models were trained and compared with each other. Hyper-parameter opti
 
 The model predicts a high performance than the actual performance. Some of the cases were clientrs did not pay back the loan were predicted as if the customers paid. A few cases that was paid late but within 15 days were predicted correctly. The percentage of loans written off is closer to 0 %.
 
-
 ### Random forest
 
 ![image](https://github.com/user-attachments/assets/7e9ba2f1-eff4-4ffa-ad87-bdba912d5ab3)
 
 Random forest perormed slightly better than decision trees as expected. The precision, recall and f1 score were slightly higher.
+
+## Next steps
+- Add more data for minority classes.
+- Implement regularization to minimize overfitting.
+- train the model using different algorithmns such as XGBoost
+  
 
 # How to run code.
 
